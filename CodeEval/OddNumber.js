@@ -6,7 +6,7 @@ function judgeOdd(num)
     return;
 }
 
-for (i=1; i < 100; i++)
+for (var i = 1; i < 100; i++)
 {
     if(typeof judgeOdd(i) !== 'undefined')
         console.log(i);
